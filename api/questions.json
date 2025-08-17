@@ -1,0 +1,111 @@
+{
+    "archetypes": {
+      "Existentialist": "Existentialists vibe with the idea that life has no preset meaning—it's on you to create your own purpose and swag out your existence.",
+      "Stoic": "Stoics are all about self-control, chillin’ through chaos, and finding peace in what you can control.",
+      "Skeptic": "Skeptics keep it real by questioning everything—nothing gets past them without proof.",
+      "Rationalist": "Rationalists trust logic and reason above all—brain over vibes, always.",
+      "Hedonist": "Hedonists chase pleasure, fun, and good vibes—living for the highs of the moment."
+    },
+    "questions": [
+      {
+        "prompt": "Life feels like a video game sometimes—what's your playstyle?",
+        "answers": [
+          {"text": "Do quests that feel meaningful, even if they're hard.", "archetype": "Existentialist"},
+          {"text": "Grind calmly, can’t rage over RNG drops, control what I can.", "archetype": "Stoic"},
+          {"text": "Lowkey think the game might be rigged, question everything.", "archetype": "Skeptic"},
+          {"text": "Plan every move like I’m playing 4D chess.", "archetype": "Rationalist"},
+          {"text": "Just side quests and vibes, max fun speedrun.", "archetype": "Hedonist"}
+        ]
+      },
+      {
+        "prompt": "When stuff goes wrong, what’s your reaction?",
+        "answers": [
+          {"text": "Bounce back quick, find something fun to distract.", "archetype": "Hedonist"},
+          {"text": "Wait, was this even real? Or staged? I doubt it.", "archetype": "Skeptic"},
+          {"text": "Nothing has meaning anyway, so I’ll make my own.", "archetype": "Existentialist"},
+          {"text": "Stay calm, it’s not in my control, so why stress?", "archetype": "Stoic"},
+          {"text": "Analyze the situation logically, find the best fix.", "archetype": "Rationalist"}
+        ]
+      },
+      {
+        "prompt": "What’s your philosophy on friendships?",
+        "answers": [
+          {"text": "Not sure if people are ever 100% genuine tbh.", "archetype": "Skeptic"},
+          {"text": "Each bond is what gives life meaning, I create it.", "archetype": "Existentialist"},
+          {"text": "As long as we’re vibing and having fun, I’m in.", "archetype": "Hedonist"},
+          {"text": "Choose friends who match my logic and reasoning.", "archetype": "Rationalist"},
+          {"text": "Don’t get attached to drama, just support calmly.", "archetype": "Stoic"}
+        ]
+      },
+      {
+        "prompt": "If someone tells you 'truth is relative,' what’s your move?",
+        "answers": [
+          {"text": "Nah, truth is objective—logic and facts rule.", "archetype": "Rationalist"},
+          {"text": "Exactly, I define my own truth and meaning.", "archetype": "Existentialist"},
+          {"text": "Maybe, but I don’t stress over what I can’t prove.", "archetype": "Stoic"},
+          {"text": "Bro who cares, as long as it feels good, it’s true to me.", "archetype": "Hedonist"},
+          {"text": "Yeah, but can we even know any truth at all?", "archetype": "Skeptic"}
+        ]
+      },
+      {
+        "prompt": "Biggest life goal?",
+        "answers": [
+          {"text": "Stay unshaken no matter what chaos comes.", "archetype": "Stoic"},
+          {"text": "Find or create a purpose worth dying for.", "archetype": "Existentialist"},
+          {"text": "Keep questioning till I get real answers (or not).", "archetype": "Skeptic"},
+          {"text": "Enjoy every moment to the max.", "archetype": "Hedonist"},
+          {"text": "Understand the universe through reason.", "archetype": "Rationalist"}
+        ]
+      },
+      {
+        "prompt": "When you’re stressed, what’s your coping style?",
+        "answers": [
+          {"text": "Escape into fun, snacks, memes, or parties.", "archetype": "Hedonist"},
+          {"text": "Redefine the meaning of the situation.", "archetype": "Existentialist"},
+          {"text": "Detach emotionally, focus on what I control.", "archetype": "Stoic"},
+          {"text": "Problem-solve with logic and reason.", "archetype": "Rationalist"},
+          {"text": "Wonder if stress is even real or just in my head.", "archetype": "Skeptic"}        ]
+      },
+      {
+        "prompt": "Imagine the universe has no meaning. What now?",
+        "answers": [
+          {"text": "Doesn’t bother me, just focus on my peace.", "archetype": "Stoic"},
+          {"text": "Wasn’t convinced it had meaning anyway.", "archetype": "Skeptic"},
+          {"text": "Let’s reason it out—maybe meaning comes from logic.", "archetype": "Rationalist"},
+          {"text": "Who cares, I’ll just enjoy it while it lasts.", "archetype": "Hedonist"},
+          {"text": "Good, I’ll give it my own meaning.", "archetype": "Existentialist"}
+        ]
+      },
+      {
+        "prompt": "When giving advice, you’re more likely to say…",
+        "answers": [
+          {"text": "You gotta define your own path.", "archetype": "Existentialist"},
+          {"text": "Let’s break it down logically.", "archetype": "Rationalist"},
+          {"text": "Just do what makes you happy rn.", "archetype": "Hedonist"},
+          {"text": "Don’t stress over what you can’t control.", "archetype": "Stoic"},
+          {"text": "Can you even trust what’s happening though?", "archetype": "Skeptic"}
+        ]
+      },
+      {
+        "prompt": "What’s your take on happiness?",
+        "answers": [
+          {"text": "It’s something you define yourself.", "archetype": "Existentialist"},
+          {"text": "Happiness is peace of mind.", "archetype": "Stoic"},
+          {"text": "Happiness = pleasure, duh.", "archetype": "Hedonist"},
+          {"text": "Can we even know what happiness really is?", "archetype": "Skeptic"},
+          {"text": "Happiness comes from rational living.", "archetype": "Rationalist"}
+        ]
+      },
+      {
+        "prompt": "If life was a TikTok trend, how would you approach it?",
+        "answers": [
+          {"text": "Analyze why it’s trending, break it down logically.", "archetype": "Rationalist"},
+          {"text": "Not get hyped, trends fade—stay calm.", "archetype": "Stoic"},
+          {"text": "Bro, is this even a real trend or just fake hype?", "archetype": "Skeptic"},
+          {"text": "I’d remix it with my own meaning.", "archetype": "Existentialist"},
+          {"text": "Hop in and vibe, it’s all about fun.", "archetype": "Hedonist"}
+        ]
+      }
+    ]
+  }
+  
