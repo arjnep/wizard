@@ -6,6 +6,7 @@ import (
 	"html/template"
 	"net/http"
 	"os"
+	"path/filepath"
 )
 
 type Answer struct {
@@ -52,12 +53,12 @@ func WizardWave(w http.ResponseWriter, r *http.Request) {
 	</html>
 	`
 
-	jsonData, err := os.ReadFile("api/questions.json")
+	dir, _ := os.Getwd()
+	fmt.Println("Current dir", dir)
+
+	jsonData, err := os.ReadFile(filepath.Join(dir, "questions.json"))
 	if err != nil {
 		http.Error(w, "Error reading questions.json"+err.Error(), http.StatusInternalServerError)
-
-		dir, _ := os.Getwd()
-		fmt.Println("Current dir", dir)
 
 		entries, err := os.ReadDir("./")
 		if err != nil {
