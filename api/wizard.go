@@ -52,9 +52,11 @@ func WizardWave(w http.ResponseWriter, r *http.Request) {
 	</html>
 	`
 
-	jsonData, err := os.ReadFile("questions.json")
+	jsonData, err := os.ReadFile("api/questions.json")
 	if err != nil {
 		http.Error(w, "Error reading questions.json", http.StatusInternalServerError)
+		dir, _ := os.Getwd()
+		fmt.Println("Error :", err, "Current dir", dir)
 		return
 	}
 	if err := json.Unmarshal(jsonData, &qbank); err != nil {
