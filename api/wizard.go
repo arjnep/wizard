@@ -56,7 +56,7 @@ func WizardWave(w http.ResponseWriter, r *http.Request) {
 	dir, _ := os.Getwd()
 	fmt.Println("Current dir", dir)
 
-	jsonData, err := os.ReadFile(filepath.Join(dir, "questions.json"))
+	jsonData, err := os.ReadFile(filepath.Join(dir, "data", "questions.json"))
 	if err != nil {
 		http.Error(w, "Error reading questions.json"+err.Error(), http.StatusInternalServerError)
 
